@@ -458,14 +458,14 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                 <div class="col-md-12 text-center">
                     <div class="portfolio-filter mt-4 mt-sm-5">
                         <button data-filter="*" class="active">All</button>
-                        <button data-filter=".wordpress">Projects</button>
-                        <button data-filter=".branding">Photos</button>
-                        <button data-filter=".website">Certificate</button>
+                        <button data-filter=".projects">Projects</button>
+                        <button data-filter=".photos">Photos</button>
+                        <button data-filter=".certificate">Certificate</button>
                     </div>
                 </div>
             </div>
             <div class="row grid p-0">
-                <div class="col-lg-4 col-md-6 col-12 grid-item branding">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/1.jpg" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/vestpro-frontend.png" alt="">
@@ -478,7 +478,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </a>
                     <p class="">Corporate site for a crypto trading agency</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item wordpress website app">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects website app">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/web1.jpg" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/web1.jpg" alt="">
@@ -491,7 +491,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </a>
                     <p class="">The Trading system of the VestPro trading site.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item branding">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/4.jpg" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="">
@@ -504,7 +504,20 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </a>
                     <p class="">An online skull for personal development courses.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item branding">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
+                    <div class="single-portfolio-item">
+                        <a href="assets/img/portfolio/4.jpg" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="">
+                            <span class="zoom-icon">+</span>
+                        </a>
+                    </div>
+                    <p class="mt-2">Projects</p>
+                    <a href="#">
+                        <h3 class="">Green environmental and climate change initiative (GECCI) </h3>
+                    </a>
+                    <p class="">An environmental conservation organization incorporated under the law of the federal republic of Nigeria.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/4.jpg" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="">
@@ -516,7 +529,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                         <h3 class="">Patraeous luxury hotel</h3>
                     </a>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item branding">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/4.jpg" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="">
@@ -529,7 +542,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </a>
                     <p class="">Website of a Nigerian Nollywood actress.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item branding">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/4.jpg" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="">
@@ -542,7 +555,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </a>
                     <p class="">Website of an entertainment and movie producing company.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item branding">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/4.jpg" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="">
@@ -555,7 +568,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </a>
                     <p class="">I built some pages of this movie stream site.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item branding app">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/5.jpg" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="">
@@ -568,7 +581,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </a>
                     <p class="">I built the frontend pages of this News Paper site.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item branding app">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/5.jpg" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="">
@@ -579,9 +592,9 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     <a href="#">
                         <h3 class="">Ether transfer and balance checker.</h3>
                     </a>
-                    <p class="">A Web3 app for checking transfering and checking Ether balance.</p>
+                    <p class="">A Web3 app for transfering and checking Ether balance.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item branding app">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/5.jpg" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="">
@@ -594,7 +607,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </a>
                     <p class="">This shows you the current weather condition of some known location</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item branding app">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/5.jpg" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="">
@@ -607,24 +620,33 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </a>
                     <p class="">I built this Todo app with Vue Js.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item wordpress">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
-                        <a href="assets/img/portfolio/6.jpg" class="popup-gallery">
-                            <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="">
+                        <a href="assets/img/portfolio/5.jpg" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="">
                             <span class="zoom-icon">+</span>
                         </a>
                     </div>
-                    <h3 class="mt-3">Portfoilo Name</h3>
+                    <p class="mt-2">Projects</p>
+                    <a href="#">
+                        <h3 class="">Flutter Plant App</h3>
+                    </a>
+                    <p class="">I built this with Flutter.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item wordpress website">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
-                        <a href="assets/img/portfolio/web2.jpg" class="popup-gallery">
-                            <img class="img-fluid" src="assets/img/portfolio/web2.jpg" alt="">
+                        <a href="assets/img/portfolio/5.jpg" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="">
                             <span class="zoom-icon">+</span>
                         </a>
                     </div>
-                    <h3 class="mt-3">Portfoilo Name</h3>
+                    <p class="mt-2">Projects</p>
+                    <a href="#">
+                        <h3 class="">Flutter Gym App</h3>
+                    </a>
+                    <p class="">I built this with Flutter.</p>
                 </div>
+                
             </div>
         </div>
     </section>
@@ -641,15 +663,15 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                                 <h3>Rachel Dowson</h3>
                                 <span>Creative Arts</span>
                             </div>
-                            <p>Maborisum ipsum dolor seat ameat consecteturerslmore be elite consecteture.Contrary to populabelief, Lorem Ipsum is not sirand. It’sto mo more.</p>
+                            <p>Not only was Fidelis's work on-time and to spec, he pays attention to improve the aesthetics of the site as well as the functionality. Throughout the entire process he is responsive, and willing to work through issues as they arise. It’s obvious he takes tremendous pride in his work, and I wouldn’t hesitate to recommend or work with him again.</p>
                         </div>
                         <div class="single-testimonial-item">
                             <div class="client-img" style="background-image: url('assets/img/profile.png');"></div>
                             <div class="client-info">
                                 <h3>Salman Ahmed</h3>
-                                <span>React Developer</span>
+                                <span>Lawyer</span>
                             </div>
-                            <p>Maborisum ipsum dolor seat ameat consecteturerslmore be elite consecteture.Contrary to populabelief, Lorem Ipsum is not sirand. It’sto mo more.</p>
+                            <p>Working with Fidelis was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
                         </div>
                         <div class="single-testimonial-item">
                             <div class="client-img" style="background-image: url('assets/img/client2.png');"></div>
@@ -657,15 +679,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                                 <h3>Isabella Dowson</h3>
                                 <span>CEO of WPLand</span>
                             </div>
-                            <p>Maborisum ipsum dolor seat ameat consecteturerslmore be elite consecteture.Contrary to populabelief, Lorem Ipsum is not sirand. It’sto mo more.</p>
-                        </div>
-                        <div class="single-testimonial-item">
-                            <div class="client-img" style="background-image: url('assets/img/client1.png');"></div>
-                            <div class="client-info">
-                                <h3>Rachel Dowson</h3>
-                                <span>Creative Arts</span>
-                            </div>
-                            <p>Maborisum ipsum dolor seat ameat consecteturerslmore be elite consecteture.Contrary to populabelief, Lorem Ipsum is not sirand. It’sto mo more.</p>
+                            <p>Fidelis has done a fantastic job overall. Not only the site is to design, the code is very clean and slick. Love the way he achieved the translations portion of the site.</p>
                         </div>
                     </div>
                 </div>
