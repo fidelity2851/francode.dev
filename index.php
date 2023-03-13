@@ -473,46 +473,59 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                         </a>
                     </div>
                     <p class="mt-2">Projects</p>
-                    <a href="#">
+                    <a href="https://fungous-adjustments.000webhostapp.com/">
                         <h4 class="">VestPro website</h4>
                     </a>
                     <p class="">Corporate site for a crypto trading agency</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects website app">
                     <div class="single-portfolio-item">
-                        <a href="assets/img/portfolio/web1.jpg" class="popup-gallery">
-                            <img class="img-fluid" src="assets/img/portfolio/web1.jpg" alt="">
+                        <a href="assets/img/portfolio/vestpro-backend.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/vestpro-backend.png" alt="">
                             <span class="zoom-icon">+</span>
                         </a>
                     </div>
                     <p class="mt-2">Projects</p>
-                    <a href="#">
+                    <a href="https://fungous-adjustments.000webhostapp.com/backend/">
                         <h4 class="">VestPro (Trading Web App)</h4>
                     </a>
                     <p class="">The Trading system of the VestPro trading site.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
+                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
-                        <a href="assets/img/portfolio/4.jpg" class="popup-gallery">
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="">
+                        <a href="assets/img/portfolio/community management system.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/community management system.png" alt="">
                             <span class="zoom-icon">+</span>
                         </a>
                     </div>
                     <p class="mt-2">Projects</p>
                     <a href="#">
+                        <h3 class="">Community management system</h3>
+                    </a>
+                    <p class="">I built some pages of this movie stream site.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
+                    <div class="single-portfolio-item">
+                        <a href="assets/img/portfolio/seeds of greatness.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/seeds of greatness.png" alt="">
+                            <span class="zoom-icon">+</span>
+                        </a>
+                    </div>
+                    <p class="mt-2">Projects</p>
+                    <a href="https://seedsofgreatnessinstitute.com/advert.php">
                         <h3 class="">Seed of greatness institute </h3>
                     </a>
                     <p class="">An online skull for personal development courses.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
-                        <a href="assets/img/portfolio/4.jpg" class="popup-gallery">
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="">
+                        <a href="assets/img/portfolio/gecci.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/gecci.png" alt="">
                             <span class="zoom-icon">+</span>
                         </a>
                     </div>
                     <p class="mt-2">Projects</p>
-                    <a href="#">
+                    <a href="https://geccinitiative.org/">
                         <h3 class="">Green environmental and climate change initiative (GECCI) </h3>
                     </a>
                     <p class="">An environmental conservation organization incorporated under the law of the federal republic of Nigeria.</p>
@@ -544,30 +557,18 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
-                        <a href="assets/img/portfolio/4.jpg" class="popup-gallery">
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="">
+                        <a href="assets/img/portfolio/pure sound visual tech.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/pure sound visual tech.png" alt="">
                             <span class="zoom-icon">+</span>
                         </a>
                     </div>
                     <p class="mt-2">Projects</p>
-                    <a href="#">
+                    <a href="https://www.puresoundvisualtech.com/">
                         <h3 class="">Pure sound visual tech</h3>
                     </a>
                     <p class="">Website of an entertainment and movie producing company.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
-                    <div class="single-portfolio-item">
-                        <a href="assets/img/portfolio/4.jpg" class="popup-gallery">
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="">
-                            <span class="zoom-icon">+</span>
-                        </a>
-                    </div>
-                    <p class="mt-2">Projects</p>
-                    <a href="#">
-                        <h3 class="">Oraclefilms.TV (front page) </h3>
-                    </a>
-                    <p class="">I built some pages of this movie stream site.</p>
-                </div>
+               
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/5.jpg" class="popup-gallery">
@@ -583,39 +584,39 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
-                        <a href="assets/img/portfolio/5.jpg" class="popup-gallery">
-                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="">
+                        <a href="assets/img/portfolio/web3.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/web3.png" alt="">
                             <span class="zoom-icon">+</span>
                         </a>
                     </div>
                     <p class="mt-2">Projects</p>
-                    <a href="#">
+                    <a href="https://chic-syrniki-3263c7.netlify.app/">
                         <h3 class="">Ether transfer and balance checker.</h3>
                     </a>
                     <p class="">A Web3 app for transfering and checking Ether balance.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
-                        <a href="assets/img/portfolio/5.jpg" class="popup-gallery">
-                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="">
+                        <a href="assets/img/portfolio/weather-app.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/weather-app.png" alt="">
                             <span class="zoom-icon">+</span>
                         </a>
                     </div>
                     <p class="mt-2">Projects</p>
-                    <a href="#">
+                    <a href="https://deluxe-mochi-ff8d72.netlify.app/">
                         <h3 class="">Weather App</h3>
                     </a>
                     <p class="">This shows you the current weather condition of some known location</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
-                        <a href="assets/img/portfolio/5.jpg" class="popup-gallery">
-                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="">
+                        <a href="assets/img/portfolio/todo-app.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/todo-app.png" alt="">
                             <span class="zoom-icon">+</span>
                         </a>
                     </div>
                     <p class="mt-2">Projects</p>
-                    <a href="#">
+                    <a href="https://spectacular-hotteok-3007a6.netlify.app/">
                         <h3 class="">Todo web app</h3>
                     </a>
                     <p class="">I built this Todo app with Vue Js.</p>
