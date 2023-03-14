@@ -695,7 +695,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                 <div class="col-12 text-center col-lg-8 offset-lg-2">
                     <div class="section-title-one">
                         <span>blog news</span>
-                        <h2>Here I’ll Share Some of My Work Experience and also Some Tips&Tricks</h2>
+                        <h2>Here are Some Tips&Tricks</h2>
                     </div>
                 </div>
             </div>
@@ -704,10 +704,10 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     <div class="single-blog blog-one">
                         <div class="featured-img" style="background-image: url('assets/img/blog1.jpg');"></div>
                         <div class="blog-content-box">
-                            <div class="post-date">02 January 2021, Sunday</div>
-                            <h3><a href="single-blog.html">Top 10 Tips For Branding</a></h3>
+                            <div class="post-date">03 May 2022</div>
+                            <h3><a target="_blank" href="https://blog.obumnwabude.com/5-things-you-will-gain-from-tech-communities">5 things you will gain from Tech Communities</a></h3>
 
-                            <a href="single-blog.html" class="read-more-btn">+ Read More</a>
+                            <a target="_blank" href="https://blog.obumnwabude.com/5-things-you-will-gain-from-tech-communities" class="read-more-btn">+ Read More</a>
                         </div>
                     </div>
                 </div> <!-- /.single-blog -->
@@ -715,21 +715,21 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     <div class="single-blog blog-one">
                         <div class="featured-img" style="background-image: url('assets/img/blog2.jpg');"></div>
                         <div class="blog-content-box">
-                            <div class="post-date">02 January 2021, Sunday</div>
-                            <h3><a href="single-blog.html">Top 10 Tips For Branding</a></h3>
+                            <div class="post-date">18 October 2018</div>
+                            <h3><a target="_blank" href="https://www.freecodecamp.org/news/useful-tips-to-help-you-create-good-habits-as-a-web-developer-7c1b7b5c0bcb/">Useful tips to help you create good habits as a web developer</a></h3>
 
-                            <a href="single-blog.html" class="read-more-btn">+ Read More</a>
+                            <a target="_blank" href="https://www.freecodecamp.org/news/useful-tips-to-help-you-create-good-habits-as-a-web-developer-7c1b7b5c0bcb/" class="read-more-btn">+ Read More</a>
                         </div>
                     </div>
                 </div> <!-- /.single-blog -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="single-blog blog-one">
-                        <div class="featured-img" style="background-image: url('assets/img/blog1.jpg');"></div>
+                        <div class="featured-img" style="background-image: url('assets/img/blog3.jpg');"></div>
                         <div class="blog-content-box">
-                            <div class="post-date">02 January 2021, Sunday</div>
-                            <h3><a href="single-blog.html">Best UI UX Course</a></h3>
+                            <div class="post-date">09 February 2022</div>
+                            <h3><a target="_blank" href="https://blog.codemon.me/how-to-send-custom-token-with-ethersjs-binance-smart-chain" >How to Send Custom Token With Ethers.js ( Binance Smart Chain )</a></h3>
 
-                            <a href="single-blog.html" class="read-more-btn">+ Read More</a>
+                            <a target="_blank" href="https://blog.codemon.me/how-to-send-custom-token-with-ethersjs-binance-smart-chain" class="read-more-btn">+ Read More</a>
                         </div>
                     </div>
                 </div> <!-- /.single-blog -->
