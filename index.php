@@ -4,6 +4,36 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
 
 ?>
 
+<?php
+if (isset($_POST['submit'])) {
+    // Variables to hold form data
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+
+    // Email recipient and subject
+    $to = $myEmail;
+    $subject = 'New Contact Form Submission From Portfolio.';
+
+    // Email content
+    $body = "Name: $name\n";
+    $body .= "Email: $email\n";
+    $body .= "Message: $message\n";
+
+    // Additional headers
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+
+    // Sending email
+    if (mail($to, $subject, $body, $headers)) {
+        $good = 'Email sent successfully!';
+    } else {
+        $bad = 'Error occurred while sending the email.';
+    }
+}
+?>
+
+
 
 
 <!DOCTYPE html>
@@ -61,7 +91,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                 <span data-text-preloader="I" class="letters-loading">
                     I
                 </span>
-                <span data-text-preloader="E" class="letters-loading">
+                <span data-text-preloader="D" class="letters-loading">
                     D
                 </span>
                 <span data-text-preloader="E" class="letters-loading">
@@ -153,19 +183,25 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
             <div class="row align-items-center">
                 <div class="col-lg-5 col-sm-12 text-center text-lg-left">
                     <div class="hero-content overflow-hidden">
-                        <span class="hello-tooltip wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Wellcome</span>
+                        <span class="hello-tooltip wow fadeInLeft" data-wow-duration="1s"
+                            data-wow-delay=".5s">Wellcome</span>
                         <h1 class="wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay=".9s"> I Am Fidelis</h1>
                         <div class="typed">
-                            <h3 class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.3s">A <span class="profession"></span></h3>
+                            <h3 class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.3s">A <span
+                                    class="profession"></span></h3>
                         </div>
-                        <p class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.6s">With 4 years commercial experience building successful web projects.</p>
+                        <p class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.6s">With 4 years commercial
+                            experience building successful web projects.</p>
                         <a href="#" class="theme-btn wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.9s">+
                             Download CV</a>
 
                         <div class="social-profile">
-                            <a href="#" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.2s"><i class="fal fa-plus"></i>facebook</a>
-                            <a href="#" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.5s"><i class="fal fa-plus"></i>twitter</a>
-                            <a href="#" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.7s"><i class="fal fa-plus"></i>linkedin</a>
+                            <a href="#" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.2s"><i
+                                    class="fal fa-plus"></i>facebook</a>
+                            <a href="#" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.5s"><i
+                                    class="fal fa-plus"></i>twitter</a>
+                            <a href="#" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.7s"><i
+                                    class="fal fa-plus"></i>linkedin</a>
                         </div>
                     </div>
                 </div>
@@ -196,7 +232,8 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                             <img src="assets/img/icons/creativity.png" alt="">
                         </div>
                         <h3>Web Development</h3>
-                        <p>Responsive websites built for an optimal user experience that achieves your business goals.</p>
+                        <p>Responsive websites built for an optimal user experience that achieves your business goals.
+                        </p>
                     </div>
                 </div> <!-- /.single-service -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -214,7 +251,8 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                             <img src="assets/img/icons/code.png" alt="">
                         </div>
                         <h3>Mobile Apps</h3>
-                        <p>Clean, modern, cross platform - optimized for performance, search engines, and converting users to customers.</p>
+                        <p>Clean, modern, cross platform - optimized for performance, search engines, and converting
+                            users to customers.</p>
                     </div>
                 </div> <!-- /.single-service -->
             </div>
@@ -271,9 +309,14 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     <div class="about-content">
                         <h1>Hello! I,m Fidelis <br> A Passionate Software Dev.</h1>
                         <h3 class="mb-3">Have 4 Years Of Experience</h3>
-                        <p class="mb-2">Since beginning my journey as a Software Developer over 4 years ago, I've worked on variety of projects varying from websites for corporate angency, Web Applications solving real world problems, etc.</p>
-                        <p class="mb-2">I build everything with <strong>Web Apps</strong> (Jquery, Vue Js, Nuxt Js, PHP, Laravel), <strong>Blockchain</strong> (Web3 Js, Ether Js, Solidity, Remix) <strong>Mobile Apps</strong> (Flutter, Dart).</p>
-                        <p class="mb-2">I'm quietly confident, naturally curious, and perpetually working on improving my problem solving skills one at a time.</p>
+                        <p class="mb-2">Since beginning my journey as a Software Developer over 4 years ago, I've worked
+                            on variety of projects varying from websites for corporate angency, Web Applications solving
+                            real world problems, etc.</p>
+                        <p class="mb-2">I build everything with <strong>Web Apps</strong> (Jquery, Vue Js, Nuxt Js, PHP,
+                            Laravel), <strong>Blockchain</strong> (Web3 Js, Ether Js, Solidity, Remix) <strong>Mobile
+                                Apps</strong> (Flutter, Dart).</p>
+                        <p class="mb-2">I'm quietly confident, naturally curious, and perpetually working on improving
+                            my problem solving skills one at a time.</p>
                         <div class="row mt-3">
                             <div class="col-sm-6 col-12">
                                 <div class="single-info">
@@ -318,7 +361,8 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                                 <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s">
                                     <span class="tip">95</span>
                                 </div>
-                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s" data-percentage="95"></span>
+                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s"
+                                    data-percentage="95"></span>
                             </div>
                         </div>
 
@@ -328,7 +372,8 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                                 <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s">
                                     <span class="tip">85%</span>
                                 </div>
-                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s" data-percentage="85"></span>
+                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s"
+                                    data-percentage="85"></span>
                             </div>
                         </div>
 
@@ -338,7 +383,8 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                                 <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".8s">
                                     <span class="tip">89%</span>
                                 </div>
-                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".8s" data-percentage="89"></span>
+                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".8s"
+                                    data-percentage="89"></span>
                             </div>
                         </div>
 
@@ -348,7 +394,8 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                                 <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s">
                                     <span class="tip">70%</span>
                                 </div>
-                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s" data-percentage="70"></span>
+                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s"
+                                    data-percentage="70"></span>
                             </div>
                         </div>
 
@@ -358,7 +405,8 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                                 <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s">
                                     <span class="tip">60%</span>
                                 </div>
-                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s" data-percentage="60"></span>
+                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s"
+                                    data-percentage="60"></span>
                             </div>
                         </div>
                     </div>
@@ -398,7 +446,8 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
         </div>
     </section>
 
-    <section class="experience-section section-padding theme-bg-gray" style="background-image: url('assets/img/testimonial_bg.png');">
+    <section class="experience-section section-padding theme-bg-gray"
+        style="background-image: url('assets/img/testimonial_bg.png');">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-8 col-lg-6">
@@ -449,7 +498,8 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                 <div class="col-12 text-center col-lg-10 offset-lg-1">
                     <div class="section-title-one">
                         <span>My portfolio</span>
-                        <h2>Here are a few past projects I've worked on. <br> <small>Want to see more? <a href="mailto:<?php echo ($myEmail) ?>">Email me</a></small>.</h2>
+                        <h2>Here are a few past projects I've worked on. <br> <small>Want to see more? <a
+                                    href="mailto:<?php echo ($myEmail) ?>">Email me</a></small>.</h2>
                     </div>
                 </div>
             </div>
@@ -491,7 +541,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </a>
                     <p class="">The Trading system of the VestPro trading site.</p>
                 </div>
-                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/community management system.png" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/community management system.png" alt="">
@@ -528,7 +578,8 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     <a href="https://geccinitiative.org/">
                         <h3 class="">Green environmental and climate change initiative (GECCI) </h3>
                     </a>
-                    <p class="">An environmental conservation organization incorporated under the law of the federal republic of Nigeria.</p>
+                    <p class="">An environmental conservation organization incorporated under the law of the federal
+                        republic of Nigeria.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
@@ -568,7 +619,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </a>
                     <p class="">Website of an entertainment and movie producing company.</p>
                 </div>
-               
+
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/5.jpg" class="popup-gallery">
@@ -647,7 +698,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </a>
                     <p class="">I built this with Flutter.</p>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -664,7 +715,11 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                                 <h3>Rachel Dowson</h3>
                                 <span>Creative Arts</span>
                             </div>
-                            <p>Not only was Fidelis's work on-time and to spec, he pays attention to improve the aesthetics of the site as well as the functionality. Throughout the entire process he is responsive, and willing to work through issues as they arise. It’s obvious he takes tremendous pride in his work, and I wouldn’t hesitate to recommend or work with him again.</p>
+                            <p>Not only was Fidelis's work on-time and to spec, he pays attention to improve the
+                                aesthetics of the site as well as the functionality. Throughout the entire process he is
+                                responsive, and willing to work through issues as they arise. It’s obvious he takes
+                                tremendous pride in his work, and I wouldn’t hesitate to recommend or work with him
+                                again.</p>
                         </div>
                         <div class="single-testimonial-item">
                             <div class="client-img" style="background-image: url('assets/img/profile.png');"></div>
@@ -672,7 +727,10 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                                 <h3>Salman Ahmed</h3>
                                 <span>Lawyer</span>
                             </div>
-                            <p>Working with Fidelis was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
+                            <p>Working with Fidelis was better than expected and we had really high expectations. He is
+                                an incredibly talented developer but what really makes him stand out is his work ethic
+                                and steady approach. Time after time, and without us asking, he added enhancements and
+                                improvements that resulted in a better end product for us and our clients.</p>
                         </div>
                         <div class="single-testimonial-item">
                             <div class="client-img" style="background-image: url('assets/img/client2.png');"></div>
@@ -680,7 +738,8 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                                 <h3>Isabella Dowson</h3>
                                 <span>CEO of WPLand</span>
                             </div>
-                            <p>Fidelis has done a fantastic job overall. Not only the site is to design, the code is very clean and slick. Love the way he achieved the translations portion of the site.</p>
+                            <p>Fidelis has done a fantastic job overall. Not only the site is to design, the code is
+                                very clean and slick. Love the way he achieved the translations portion of the site.</p>
                         </div>
                     </div>
                 </div>
@@ -705,9 +764,13 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                         <div class="featured-img" style="background-image: url('assets/img/blog1.jpg');"></div>
                         <div class="blog-content-box">
                             <div class="post-date">03 May 2022</div>
-                            <h3><a target="_blank" href="https://blog.obumnwabude.com/5-things-you-will-gain-from-tech-communities">5 things you will gain from Tech Communities</a></h3>
+                            <h3><a target="_blank"
+                                    href="https://blog.obumnwabude.com/5-things-you-will-gain-from-tech-communities">5
+                                    things you will gain from Tech Communities</a></h3>
 
-                            <a target="_blank" href="https://blog.obumnwabude.com/5-things-you-will-gain-from-tech-communities" class="read-more-btn">+ Read More</a>
+                            <a target="_blank"
+                                href="https://blog.obumnwabude.com/5-things-you-will-gain-from-tech-communities"
+                                class="read-more-btn">+ Read More</a>
                         </div>
                     </div>
                 </div> <!-- /.single-blog -->
@@ -716,9 +779,13 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                         <div class="featured-img" style="background-image: url('assets/img/blog2.jpg');"></div>
                         <div class="blog-content-box">
                             <div class="post-date">18 October 2018</div>
-                            <h3><a target="_blank" href="https://www.freecodecamp.org/news/useful-tips-to-help-you-create-good-habits-as-a-web-developer-7c1b7b5c0bcb/">Useful tips to help you create good habits as a web developer</a></h3>
+                            <h3><a target="_blank"
+                                    href="https://www.freecodecamp.org/news/useful-tips-to-help-you-create-good-habits-as-a-web-developer-7c1b7b5c0bcb/">Useful
+                                    tips to help you create good habits as a web developer</a></h3>
 
-                            <a target="_blank" href="https://www.freecodecamp.org/news/useful-tips-to-help-you-create-good-habits-as-a-web-developer-7c1b7b5c0bcb/" class="read-more-btn">+ Read More</a>
+                            <a target="_blank"
+                                href="https://www.freecodecamp.org/news/useful-tips-to-help-you-create-good-habits-as-a-web-developer-7c1b7b5c0bcb/"
+                                class="read-more-btn">+ Read More</a>
                         </div>
                     </div>
                 </div> <!-- /.single-blog -->
@@ -727,9 +794,13 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                         <div class="featured-img" style="background-image: url('assets/img/blog3.jpg');"></div>
                         <div class="blog-content-box">
                             <div class="post-date">09 February 2022</div>
-                            <h3><a target="_blank" href="https://blog.codemon.me/how-to-send-custom-token-with-ethersjs-binance-smart-chain" >How to Send Custom Token With Ethers.js ( Binance Smart Chain )</a></h3>
+                            <h3><a target="_blank"
+                                    href="https://blog.codemon.me/how-to-send-custom-token-with-ethersjs-binance-smart-chain">How
+                                    to Send Custom Token With Ethers.js ( Binance Smart Chain )</a></h3>
 
-                            <a target="_blank" href="https://blog.codemon.me/how-to-send-custom-token-with-ethersjs-binance-smart-chain" class="read-more-btn">+ Read More</a>
+                            <a target="_blank"
+                                href="https://blog.codemon.me/how-to-send-custom-token-with-ethersjs-binance-smart-chain"
+                                class="read-more-btn">+ Read More</a>
                         </div>
                     </div>
                 </div> <!-- /.single-blog -->
@@ -746,7 +817,9 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                 </div>
                 <div class="single-info col-md-4 col-12">
                     <h4>eMail :</h4>
-                    <span><?php echo ($myEmail) ?></span>
+                    <span>
+                        <?php echo ($myEmail) ?>
+                    </span>
                 </div>
                 <div class="single-info col-md-4 col-12">
                     <h4>Phone :</h4>
@@ -756,7 +829,8 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
         </div>
     </section>
     <!-- Contact section -->
-    <section class="contact-section section-padding theme-bg-gray" style="background-image: url('assets/img/testimonial_bg.png');">
+    <section class="contact-section section-padding theme-bg-gray"
+        style="background-image: url('assets/img/testimonial_bg.png');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-12 mt-5 text-center text-lg-left">
@@ -766,25 +840,44 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
                     </div>
                 </div>
                 <div class="col-12 col-lg-7 offset-lg-1">
+                    <?php
+                    if (isset($good)) {
+                        ?>
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>successfully!</strong>
+                            <?php echo ($good) ?>.
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        <?php
+                    } elseif (isset($bad)) {
+                        ?>
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <strong>Sorry!</strong>
+                            <?php echo ($bad) ?>.
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        <?php
+                    }
+                    ?>
                     <div class="contact-form-wraper">
-                        <form action="#" class="row">
+                        <form action="" method="post" class="row">
                             <div class="col-md-6 col-12">
                                 <div class="single-input">
-                                    <input type="text" placeholder="Enter your full name">
+                                    <input type="text" name="name" placeholder="Enter your full name">
                                 </div>
                             </div>
                             <div class="col-md-6 col-12">
                                 <div class="single-input">
-                                    <input type="email" placeholder="Enter your Email address">
+                                    <input type="email" name="email" placeholder="Enter your Email address">
                                 </div>
                             </div>
                             <div class="col-md-12 col-12">
                                 <div class="single-input">
-                                    <textarea placeholder="Message"></textarea>
+                                    <textarea name="message" placeholder="Message"></textarea>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="theme-btn">+ Mesage Me</button>
+                                <button type="submit" name="submit" class="theme-btn">+ Mesage Me</button>
                             </div>
                         </form>
                     </div>
@@ -825,7 +918,7 @@ $myEmail = "ukwuanifidelis2851@gmail.com";
     <script src="assets/js/ajax-mail.js"></script>
     <script>
         let typed = new Typed('.profession', {
-            strings: ["Frontend Developer", "Software Developer", "Blockchain Developer", "UI/UX Designer"],
+            strings: ["UI/UX Designer", "Frontend Developer", "Software Developer", "Blockchain Developer"],
             typeSpeed: 80,
             loop: true,
             startDelay: 200,
