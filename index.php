@@ -50,23 +50,26 @@
                 <span data-text-preloader="F" class="letters-loading">
                     F
                 </span>
-                <span data-text-preloader="I" class="letters-loading">
-                    I
+                <span data-text-preloader="R" class="letters-loading">
+                    R
+                </span>
+                <span data-text-preloader="A" class="letters-loading">
+                    A
+                </span>
+                <span data-text-preloader="N" class="letters-loading">
+                    N
+                </span>
+                <span data-text-preloader="C" class="letters-loading">
+                    C
+                </span>
+                <span data-text-preloader="O" class="letters-loading">
+                    O
                 </span>
                 <span data-text-preloader="D" class="letters-loading">
                     D
                 </span>
                 <span data-text-preloader="E" class="letters-loading">
                     E
-                </span>
-                <span data-text-preloader="L" class="letters-loading">
-                    L
-                </span>
-                <span data-text-preloader="I" class="letters-loading">
-                    I
-                </span>
-                <span data-text-preloader="S" class="letters-loading">
-                    S
                 </span>
             </div>
             <p class="text-center">Loading</p>
@@ -94,18 +97,18 @@
             <div class="row align-items-center">
                 <div class="col-lg-2 col-6">
                     <div class="logo">
-                        <a href="index.html">FranCode</a>
+                        <a href="index.php">FranCode</a>
                     </div>
                 </div>
                 <div class="col-lg-8 offset-lg-2 d-none d-lg-block text-right">
                     <div class="main-menu">
                         <ul>
-                            <li><a href="index.html#">Home</a></li>
-                            <li><a href="index.html#about">About</a></li>
-                            <li><a href="index.html#services">services</a></li>
-                            <li><a href="index.html#resume">Resume</a></li>
-                            <li><a href="index.html#portfolio">Portfolio</a></li>
-                            <li><a href="index.html#contact">Contact</a></li>
+                            <li><a href="index.php#">Home</a></li>
+                            <li><a href="index.php#about">About</a></li>
+                            <li><a href="index.php#services">services</a></li>
+                            <li><a href="index.php#resume">Resume</a></li>
+                            <li><a href="index.php#portfolio">Portfolio</a></li>
+                            <li><a href="index.php#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -124,12 +127,12 @@
                         </button>
                         <nav class="sidebar-nav">
                             <ul class="metismenu" id="mobile-menu">
-                                <li><a href="index.html#">Home</a></li>
-                                <li><a href="index.html#about">About</a></li>
-                                <li><a href="index.html#services">services</a></li>
-                                <li><a href="index.html#resume">Resume</a></li>
-                                <li><a href="index.html#portfolio">Portfolio</a></li>
-                                <li><a href="index.html#contact">Contact</a></li>
+                                <li><a href="index.php#">Home</a></li>
+                                <li><a href="index.php#about">About</a></li>
+                                <li><a href="index.php#services">services</a></li>
+                                <li><a href="index.php#resume">Resume</a></li>
+                                <li><a href="index.php#portfolio">Portfolio</a></li>
+                                <li><a href="index.php#contact">Contact</a></li>
                             </ul>
                         </nav>
 
