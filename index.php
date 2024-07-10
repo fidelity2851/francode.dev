@@ -94,7 +94,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-2 col-6">
                     <div class="logo">
-                        <a href="index.html">Fidelis</a>
+                        <a href="index.html">FranCode</a>
                     </div>
                 </div>
                 <div class="col-lg-8 offset-lg-2 d-none d-lg-block text-right">
@@ -842,7 +842,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    &copy; 2023 Fidelis | All Right Reserved.
+                    &copy; <?php echo date("Y") ?> Fidelis | All Right Reserved.
                 </div>
             </div>
         </div>
