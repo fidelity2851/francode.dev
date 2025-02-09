@@ -43,7 +43,7 @@
 <body>
 
     <!-- preloader -->
-    <div id="preloader" class="preloader">
+    <!-- <div id="preloader" class="preloader">
         <div class="animation-preloader">
             <div class="spinner"></div>
             <div class="txt-loading">
@@ -90,7 +90,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <header class="header-section header-style-1">
         <div class="container">
@@ -358,10 +358,10 @@
                             <p>Blockchain / Solidity</p>
                             <div class="barfiller progress-bar" id='bar4'>
                                 <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s">
-                                    <span class="tip">85%</span>
+                                    <span class="tip">95%</span>
                                 </div>
                                 <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s"
-                                    data-percentage="85"></span>
+                                    data-percentage="95"></span>
                             </div>
                         </div>
 
@@ -493,6 +493,51 @@
                 </div>
             </div> -->
             <div class="row grid p-0">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
+                    <div class="single-portfolio-item">
+                        <a href="assets/img/portfolio/bank.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/bank.png" alt="">
+                            <span class="zoom-icon">+</span>
+                        </a>
+                    </div>
+                    <p class="mt-2">Projects</p>
+                    <a href="#">
+                        <h3 class="">Decentralized Banking System (Smart Contract & DApp)</h3>
+                    </a>
+                    <p class="">
+                        A smart contract-based banking system where users can deposit and withdraw funds securely. Built an interactive decentralized application (DApp) to interact with the contract seamlessly.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
+                    <div class="single-portfolio-item">
+                        <a href="assets/img/portfolio/ebe1.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/ebe1.png" alt="">
+                            <span class="zoom-icon">+</span>
+                        </a>
+                    </div>
+                    <p class="mt-2">Projects</p>
+                    <a href="#">
+                        <h3 class="">Ethereum Block Explorer & Transaction Sender</h3>
+                    </a>
+                    <p class="">
+                        A lightweight blockchain explorer that allows users to search for Ethereum transactions by address or hash. Integrated a feature to connect MetaMask and send ETH directly from the interface.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
+                    <div class="single-portfolio-item">
+                        <a href="assets/img/portfolio/vbrae.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/vbrae.png" alt="">
+                            <span class="zoom-icon">+</span>
+                        </a>
+                    </div>
+                    <p class="mt-2">Projects</p>
+                    <a href="#">
+                        <h3 class="">Custom E-Commerce Platform For Games</h3>
+                    </a>
+                    <p class="">
+                        Developed a functional and responsive e-commerce platform for selling games, based on a client-provided Figma design.
+                    </p>
+                </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/escrow_pay1.png" class="popup-gallery">
@@ -795,15 +840,15 @@
                 </div>
                 <div class="col-12 col-lg-7 offset-lg-1">
                     <!-- <?php
-                    if (isset($good)) {
-                        ?>
+                            if (isset($good)) {
+                            ?>
                         <div class="alert alert-success alert-dismissible fade show" role="alert">
                             <strong>successfully!</strong>
                             <?php echo ($good) ?>.
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                         <?php
-                    } elseif (isset($bad)) {
+                            } elseif (isset($bad)) {
                         ?>
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
                             <strong>Sorry!</strong>
@@ -811,8 +856,8 @@
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                         <?php
-                    }
-                    ?> -->
+                            }
+                        ?> -->
                     <div class="contact-form-wraper">
                         <form onsubmit="event.preventDefault(); sendMail()" method="post" class="row">
                             <div class="col-md-6 col-12">
@@ -894,12 +939,12 @@
             };
 
             emailjs.send('service_yhb2kmo', 'template_fl70llp', templateParams, 'YV09jYiBBgEo6x5SV')
-                .then(function (response) {
+                .then(function(response) {
                     alert('Mail sent Successfully, Will get back to you.')
                     document.getElementById("from_name").value = '';
                     document.getElementById("reply_to").value = '';
                     document.getElementById("message").value = '';
-                }, function (error) {
+                }, function(error) {
                     console.log('FAILED...', error);
                 });
 

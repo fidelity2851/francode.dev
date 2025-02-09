@@ -1,8 +1,4 @@
 {
     "editor.mouseWheelScrollSensitivity": 1,
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#481262",
-        "titleBar.activeBackground": "#641989",
-        "titleBar.activeForeground": "#FDFBFE"
-    }
+    "workbench.colorCustomizations": {}
 }
