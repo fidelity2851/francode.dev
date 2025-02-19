@@ -136,7 +136,7 @@
                             </ul>
                         </nav>
 
-                        <a href="#" class="theme-btn mt-4">+ Download CV</a>
+                        <a href="./assets/Fidelis_Ukwuani_CV.pdf" class="theme-btn mt-4" download>+ Download CV</a>
                     </div>
                 </div>
             </div>
@@ -157,7 +157,7 @@
                         </div>
                         <p class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.6s">With 4 years commercial
                             experience building successful web projects.</p>
-                        <a href="#" class="theme-btn wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.9s">+
+                        <a href="./assets/Fidelis_Ukwuani_CV.pdf" class="theme-btn wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.9s" download>+
                             Download CV</a>
 
                         <div class="social-profile pb-lg-4">
@@ -306,7 +306,7 @@
                             </div>
                         </div>
 
-                        <a href="#" class="theme-btn">+ Download CV</a>
+                        <a href="./assets/Fidelis_Ukwuani_CV.pdf" class="theme-btn" download>+ Download CV</a>
                     </div>
                 </div>
             </div>
