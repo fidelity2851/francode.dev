@@ -4,11 +4,23 @@
 <head>
     <!-- ========== Meta Tags ========== -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="keendevs">
+    <meta name="description" content="FranCode (Ukwuani Fidelis Ndubuisi) - A skilled Web Developer, Blockchain Developer, and Mobile Developer. Specializing in scalable web apps, decentralized applications, and mobile solutions.">
+    <meta name="keywords" content="FranCode, Web Developer, Blockchain Developer, Mobile Developer, React, Vue.js, Laravel, ICO, DApp, Smart Contracts">
+    <meta name="author" content="FranCode (Ukwuani Fidelis Ndubuisi)">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="FranCode - Web Developer | Blockchain Developer | Mobile Developer">
+    <meta property="og:description" content="Expert in web, blockchain, and mobile development. Building scalable apps with React, Vue.js, Laravel, and blockchain technologies.">
+    <meta property="og:image" content="https://francode.dev/about_2.jpg">
+    <meta property="og:url" content="https://francode.dev">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FranCode - Web Developer | Blockchain Developer | Mobile Developer">
+    <meta name="twitter:description" content="Specializing in web, blockchain, and mobile development with cutting-edge technologies.">
+    <meta name="twitter:image" content="https://francode.dev/about_2.jpg">
+
     <!-- ======== Page title ============ -->
-    <title>Ukwuani Fidelis Ndubuisi - Web Developer| Blockchain Developer | Mobile Developer | UI/UX Designer. </title>
+    <title>Ukwuani Fidelis Ndubuisi - Web Developer| Blockchain Developer | Mobile Developer </title>
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png">
     <!-- ===========  All Stylesheet ================= -->
@@ -197,7 +209,7 @@
                             <img src="assets/img/icons/code.png" alt="">
                         </div>
                         <h3>Web Development</h3>
-                        <p>Responsive websites and web apps built for an optimal user experience that achieves your business goals.
+                        <p>I build responsive, high-performance websites and web applications designed to enhance user experience and meet business goals efficiently.
                         </p>
                     </div>
                 </div> <!-- /.single-service -->
@@ -207,7 +219,7 @@
                             <img src="assets/img/icons/code.png" alt="">
                         </div>
                         <h3>Blockchain Services</h3>
-                        <p>Highly audited Smart Contracts, NFTs, Tokens, Exchanges, DOA, ICO and more.</p>
+                        <p>I develop and audit smart contracts, NFTs, tokens, and decentralized applications. I also provide solutions for ICOs, exchanges, and DAOs, ensuring security and scalability.</p>
                     </div>
                 </div> <!-- /.single-service -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -216,8 +228,7 @@
                             <img src="assets/img/icons/code.png" alt="">
                         </div>
                         <h3>Mobile Apps</h3>
-                        <p>Clean, modern, cross platform - optimized for performance, search engines, and converting
-                            users to customers.</p>
+                        <p>I create sleek, modern, and cross-platform mobile applications optimized for performance, SEO, and user conversion, helping businesses reach a wider audience.</p>
                     </div>
                 </div> <!-- /.single-service -->
             </div>
@@ -425,7 +436,7 @@
                 </div>
                 <div class="col-md-4 col-lg-6 mt-4 mt-md-0">
                     <div class="section-button text-md-right">
-                        <a href="#" class="theme-btn">+ Download CV</a>
+                        <a href="./assets/Fidelis_Ukwuani_CV.pdf" class="theme-btn">+ Download CV</a>
                     </div>
                 </div>
             </div>
@@ -495,6 +506,36 @@
             <div class="row grid p-0">
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
+                        <a href="assets/img/portfolio/vbrae.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/vbrae.png" alt="">
+                            <span class="zoom-icon">+</span>
+                        </a>
+                    </div>
+                    <p class="mt-2">Projects</p>
+                    <a href="https://vbrae.netlify.app/" target="_blank">
+                        <h3 class="">Custom E-Commerce Platform For Games</h3>
+                    </a>
+                    <p class="">
+                        Developed a functional and responsive e-commerce platform for selling games, based on a client-provided Figma design.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
+                    <div class="single-portfolio-item">
+                        <a href="assets/img/portfolio/ico_presale.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/ico_presale.png" alt="ICO Presale page">
+                            <span class="zoom-icon">+</span>
+                        </a>
+                    </div>
+                    <p class="mt-2">Projects</p>
+                    <a href="#">
+                        <h3 class="">FranCode ICO - Token Presale Landing Page</h3>
+                    </a>
+                    <p class="">
+                        Developed a fully functional and responsive ICO token presale platform. Designed a user-friendly interface for seamless token purchasing, integrated Web3 wallet connections, and ensured smooth interaction with smart contracts.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
+                    <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/bank.png" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/bank.png" alt="">
                             <span class="zoom-icon">+</span>
@@ -523,21 +564,7 @@
                         A lightweight blockchain explorer that allows users to search for Ethereum transactions by address or hash. Integrated a feature to connect MetaMask and send ETH directly from the interface.
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 grid-item projects">
-                    <div class="single-portfolio-item">
-                        <a href="assets/img/portfolio/vbrae.png" class="popup-gallery">
-                            <img class="img-fluid" src="assets/img/portfolio/vbrae.png" alt="">
-                            <span class="zoom-icon">+</span>
-                        </a>
-                    </div>
-                    <p class="mt-2">Projects</p>
-                    <a href="#">
-                        <h3 class="">Custom E-Commerce Platform For Games</h3>
-                    </a>
-                    <p class="">
-                        Developed a functional and responsive e-commerce platform for selling games, based on a client-provided Figma design.
-                    </p>
-                </div>
+
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/escrow_pay1.png" class="popup-gallery">
@@ -547,10 +574,10 @@
                     </div>
                     <p class="mt-2">Projects</p>
                     <a href="#">
-                        <h3 class="">Escrow Pay Limited (Web App)</h3>
+                        <h3 class="">EscrowPay - Secure Online Payment System</h3>
                     </a>
                     <p class="">
-                        Online Escrow payment system.
+                        A web-based escrow platform that ensures secure and transparent transactions. Designed with a user-friendly dashboard, automated payment processing, and dispute resolution features for seamless financial transactions.
                     </p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
@@ -564,7 +591,7 @@
                     <a href="https://fungous-adjustments.000webhostapp.com/">
                         <h4 class="">VestPro website</h4>
                     </a>
-                    <p class="">Corporate site for a crypto trading agency</p>
+                    <p class="">A professional corporate website for VestPro, a crypto trading agency, designed to enhance credibility and online presence.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects website app">
                     <div class="single-portfolio-item">
@@ -577,7 +604,7 @@
                     <a href="https://fungous-adjustments.000webhostapp.com/backend/">
                         <h4 class="">VestPro (Trading Web App)</h4>
                     </a>
-                    <p class="">The Trading system of the VestPro trading site.</p>
+                    <p class="">A trading system for the VestPro platform, offering real-time market data, trade execution, and portfolio management tools.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
@@ -590,7 +617,7 @@
                     <a href="#">
                         <h3 class="">Community management system</h3>
                     </a>
-                    <p class="">A software designed to help manage the financial aspect of a community.</p>
+                    <p class="">A web-based platform designed to manage financial transactions within a community. It automates fee collection, generates invoices for users, and ensures seamless financial record-keeping for better transparency and efficiency.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
@@ -603,7 +630,7 @@
                     <a href="https://seedsofgreatnessinstitute.com/advert.php">
                         <h3 class="">Seed of greatness institute </h3>
                     </a>
-                    <p class="">An online school for personal development courses.</p>
+                    <p class="">An online learning platform offering personal development courses to empower individuals with knowledge and skills.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
@@ -616,8 +643,7 @@
                     <a href="https://geccinitiative.org/">
                         <h3 class="">Green environmental and climate change initiative (GECCI) </h3>
                     </a>
-                    <p class="">An environmental conservation organization incorporated under the law of the federal
-                        republic of Nigeria.</p>
+                    <p class="">An environmental conservation organization website promoting sustainability efforts under Nigerian federal law.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects">
                     <div class="single-portfolio-item">
@@ -630,7 +656,7 @@
                     <a href="#">
                         <h3 class="">Escrow Pay Limted (Website)</h3>
                     </a>
-                    <p class="">Company website of an online escrow payment system.</p>
+                    <p class="">A corporate website for an online escrow payment system, providing essential company information and secure financial transaction services.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
@@ -641,9 +667,9 @@
                     </div>
                     <p class="mt-2">Projects</p>
                     <a href="https://chic-syrniki-3263c7.netlify.app/">
-                        <h3 class="">Ether transfer and balance checker.</h3>
+                        <h3 class="">Ether Transfer & Balance Checker.</h3>
                     </a>
-                    <p class="">A Web3 app for transfering and checking Ether balance.</p>
+                    <p class="">A Web3 app that allows users to transfer Ether securely and check their account balance in real time.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
@@ -656,7 +682,7 @@
                     <a href="https://deluxe-mochi-ff8d72.netlify.app/">
                         <h3 class="">Weather App</h3>
                     </a>
-                    <p class="">This shows you the current weather condition of some known location</p>
+                    <p class="">A web application that provides real-time weather updates for any specified location, featuring temperature, humidity, and forecast data.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
@@ -669,9 +695,9 @@
                     <a href="https://spectacular-hotteok-3007a6.netlify.app/">
                         <h3 class="">Todo web app</h3>
                     </a>
-                    <p class="">I built this Todo app with Vue Js.</p>
+                    <p class="">A simple and efficient task management app built with Vue.js to help users track and organize their daily tasks.</p>
                 </div>
-                <!-- <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
+                <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
                         <a href="assets/img/portfolio/5.jpg" class="popup-gallery">
                             <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="">
@@ -682,7 +708,7 @@
                     <a href="#">
                         <h3 class="">Flutter Plant App</h3>
                     </a>
-                    <p class="">I built this with Flutter.</p>
+                    <p class="">A beautifully designed mobile app built with Flutter, helping users explore and manage plants with ease. Features include plant care tips, reminders, and a user-friendly interface for plant enthusiasts.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 grid-item projects app">
                     <div class="single-portfolio-item">
@@ -695,8 +721,8 @@
                     <a href="#">
                         <h3 class="">Flutter Gym App</h3>
                     </a>
-                    <p class="">I built this with Flutter.</p>
-                </div> -->
+                    <p class="">A powerful fitness tracking app developed using Flutter, offering workout plans, progress tracking, and exercise tutorials. Designed for both beginners and advanced users looking to stay fit.</p>
+                </div>
 
             </div>
         </div>
@@ -822,7 +848,7 @@
                 </div>
                 <div class="single-info col-md-4 col-12">
                     <h4>Phone :</h4>
-                    <span>+234 08028514740</span>
+                    <span>+234 08028514704</span>
                 </div>
             </div>
         </div>
@@ -890,7 +916,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    &copy; <?php echo date("Y") ?> Fidelis | All Right Reserved.
+                    &copy; <?php echo date("Y") ?> FranCode | All Right Reserved.
                 </div>
             </div>
         </div>
